@@ -34,6 +34,7 @@
 
 | Repo | What it shows |
 |---|---|
+| [document-ingestion-reference](https://github.com/10vin10-cmd/document-ingestion-reference) | Serverless ingestion on AWS: API Gateway, Lambda, Step Functions with human-in-the-loop review, DynamoDB optimistic concurrency, Streams → audit/OpenSearch, all in CDK with 47 tests |
 | [ai-projects](https://github.com/10vin10-cmd/ai-projects) | Hands-on GenAI work: RAG pipelines, tool-calling agents, vector search, speech and vision apps, CI on GitHub Actions |
 | ↳ [PDF tutor](https://github.com/10vin10-cmd/ai-projects/blob/main/src/ai_toolbox/gradio/pdf_tutor.py) | RAG over PDFs: OCR ingestion, FAISS, LangChain on local Ollama, Gradio UI |
 | ↳ [Agent & retrieval labs](https://github.com/10vin10-cmd/ai-projects/tree/main/JL) | Tool-calling agents, LCEL, LlamaIndex advanced retrievers |
