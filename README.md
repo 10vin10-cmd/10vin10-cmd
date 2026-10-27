@@ -18,7 +18,7 @@
 
 #### 🧩 Patterns I work in
 
-`event-driven ingestion` · `Step Functions orchestration` · `DynamoDB optimistic concurrency` · `CDC → search/audit (Streams → OpenSearch)` · `Iceberg lakehouse / medallion layers` · `IaC-first delivery` · `SLOs, MTTR & DORA metrics` · `human-in-the-loop ML validation`
+`event-driven ingestion` · `agentic root-cause analysis` · `Step Functions orchestration` · `DynamoDB optimistic concurrency` · `CDC → search/audit (Streams → OpenSearch)` · `Iceberg lakehouse / medallion layers` · `IaC-first delivery` · `SLOs, MTTR & DORA metrics` · `human-in-the-loop ML validation`
 
 #### 🛠️ Stack
 
@@ -36,6 +36,8 @@
 | Repo | What it shows |
 |---|---|
 | [document-ingestion-reference](https://github.com/10vin10-cmd/document-ingestion-reference) | Serverless ingestion on AWS (Lambda, Step Functions, DynamoDB optimistic concurrency, CDK) with a React + TypeScript reviewer app for human-in-the-loop review: Cognito sign-in, review claims, CloudFront hosting. 100+ tests |
+| [cicd-automation](https://github.com/10vin10-cmd/cicd-automation) | CI/CD that explains its own failures: selective build and test, policy-based auto-merge, canary deploys with automatic rollback (local and ECS), and root-cause agents (Bedrock, Anthropic API or offline) that trace a failure from the service that reported it to the one that caused it, citing evidence. Evaluated on six real fault scenarios in CI |
+| [ops-automation](https://github.com/10vin10-cmd/ops-automation) | Platform operations with guardrails: Terraform/CloudFormation drift remediation by policy, a DORA scorecard from GitHub, alarm-triggered runbooks with approvals, cooldowns and audit trail (CDK), and cost and hygiene cleanup |
 | [ai-projects](https://github.com/10vin10-cmd/ai-projects) | Hands-on GenAI work: RAG pipelines, tool-calling agents, vector search, speech and vision apps, CI on GitHub Actions |
 | ↳ [PDF tutor](https://github.com/10vin10-cmd/ai-projects/blob/main/src/ai_toolbox/gradio/pdf_tutor.py) | RAG over PDFs: OCR ingestion, FAISS, LangChain on local Ollama, Gradio UI |
 | ↳ [Agent & retrieval labs](https://github.com/10vin10-cmd/ai-projects/tree/main/JL) | Tool-calling agents, LCEL, LlamaIndex advanced retrievers |
